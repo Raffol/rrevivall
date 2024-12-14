@@ -32,13 +32,14 @@ class ProfileController extends Controller
     }
     public function update(Request $request)
     {
+        $user = auth()->user();
+        $user->name = $request->name;
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255|unique:users,email,' . $user->id,
         ]);
 
-        $user = auth()->user();
-        $user->name = $request->name;
+
 
         // Обработка загрузки аватарки
        /* if ($request->hasFile('avatar')) {

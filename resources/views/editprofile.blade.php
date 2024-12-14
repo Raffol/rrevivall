@@ -18,7 +18,8 @@
             <label for="avatar">Аватар:</label>
             @if($user->avatar)
                 <div>
-                    <img src="{{ asset($user->avatar) }}" alt="Аватар" style="width: 100px; height: 100px; object-fit: cover;">
+                    <img src="{{'/img/' . $user->avatar}}" alt="Ваш аватар" style="width: 150px; height: 150px; border-radius: 20%;">
+                    {{--<img src="{{ '/img/'.asset($user->avatar) }}" alt="Аватар" style="width: 100px; height: 100px; object-fit: cover;">--}}
                 </div>
             @endif
             <input type="file" name="avatar" id="avatar" class="form-control">

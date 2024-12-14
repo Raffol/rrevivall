@@ -18,7 +18,7 @@ $user = auth()->user();
 <h1>Добро пожаловать, {{ auth()->user()->name ?? 'Гость' }}!</h1>
 <div style="display: flex; gap: 15px">
     @if {{--($user->avatar)--}}(auth()->user() && auth()->user()->avatar)
-    <img src="{{'/img/avatars' . $user->avatar}}{{--{{ asset('storage/' . auth()->user()->avatar) }}--}}" alt="Ваш аватар" style="width: 150px; height: 150px; border-radius: 20%;">
+    <img src="{{'/img/' . $user->avatar}}{{--{{ asset('storage/' . auth()->user()->avatar) }}--}}" alt="Ваш аватар" style="width: 150px; height: 150px; border-radius: 20%;">
     @else
     <p>Аватарка не загружена</p>
     @endif
