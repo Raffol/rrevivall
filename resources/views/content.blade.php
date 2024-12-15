@@ -54,21 +54,21 @@
         <div id="organizerss1" style="transition: transform 0.3s ease, box-shadow 0.3s ease;">
             <div></div>
             <div style="display: flex; gap: 10px">
-            <img src="{{asset('img/8077115.jpg')}}" alt="" style="width: 100px; height: 100px;">
+            <img src="{{asset('img/1731650085.jpg')}}" alt="" style="width: 100px; height: 100px;">
             <h2>Иванов Иван Иванович</h2>
             </div>
             <p style="font-size: 18px">Председатель совета и организации</p>
         </div>
         <div id="organizerss2">
             <div style="display: flex; gap: 10px">
-                <img src="{{asset('img/8077115.jpg')}}" alt="" style="width: 100px; height: 100px;">
+                <img src="{{asset('img/1731650085.jpg')}}" alt="" style="width: 100px; height: 100px;">
             <h2>Антонов Антон Антонович</h2>
         </div>
             <p  style="font-size: 18px">Менеджер по работе с волонтёрами</p>
             </div>
         <div id="organizerss3">
             <div style="display: flex; gap: 10px">
-                <img src="{{asset('img/8077115.jpg')}}" alt="" style="width: 100px; height: 100px;">
+                <img src="{{asset('img/1731650085.jpg')}}" alt="" style="width: 100px; height: 100px;">
             <h2>Игорев Игорь Игоревич</h2>
             </div>
             <p style="font-size: 18px">Пресс-служба</p>

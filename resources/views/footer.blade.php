@@ -15,7 +15,7 @@
     }
 </style>
 
-<footer style="display: flex; gap: 550px; background-color: black; padding: 50px; color: white">
+<footer style="display: flex; gap: 550px; background-color: black; padding: 40px; color: white">
     <div >
     <p >&copy; 2024 ИРОО Возрождение. Все права защищены.</p>
         <div style="display: flex; margin-left: 40px;">

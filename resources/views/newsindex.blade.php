@@ -28,14 +28,14 @@
                 <h2><a href="{{ route('news.show', $newsItem->id) }}">{{ $newsItem->title }}</a></h2>
                 <p>{{ Str::limit($newsItem->content, 200) }}</p>
                 @if ($newsItem->media_path) {{--фото--}}
-                    <img src="{{ Voyager::image($newsItem->media_path) }}" alt="Фото" style="width: 200px;">
+                    <img src="{{ Voyager::image($newsItem->media_path) }}" alt="Фото" style="width: 400px; height: 256px">
                 @endif
-                @if ($newsItem->video_path) {{--видео--}}
+               {{-- @if ($newsItem->media_path) --}}{{--видео--}}{{--
                     <video width="320" height="240" controls>
-                        <source src="{{ Voyager::image($newsItem->video_path) }}" type="video/mp4">
+                        <source src="{{ Voyager::image($newsItem->media_path) }}" type="video/mp4">
                         Ваш браузер не поддерживает видео.
                     </video>
-                @endif
+                @endif--}}
                 <p><small>Опубликовано: {{ $newsItem->created_at }} автор: {{ $newsItem->author }}</small></p> <!-- Отображаем автора новости -->
                 <hr>
             </div>
