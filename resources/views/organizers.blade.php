@@ -36,31 +36,31 @@
         <h2>Наши организаторы</h2>
         </thead>
         <tr>
-            <td><img src="{{asset('img/8077115.jpg')}}" alt=""></td>
+            <td><img src="{{asset('img/1731310451.png')}}" alt=""></td>
             <td class="hbold">Хангуева Варвара Кирилловна</td>
             <td>заместитель Председателя организационного комитета</td>
         </tr>
 
         <tr>
-            <td><img src="{{asset('img/8077115.jpg')}}" alt=""></td>
+            <td><img src="{{asset('img/1731310451.png')}}" alt=""></td>
             <td class="hbold">Шатаева Олеся Олеговна</td>
             <td>Главный менеджер игровых площадок</td>
         </tr>
 
         <tr>
-            <td><img src="{{asset('img/8077115.jpg')}}" alt=""></td>
+            <td><img src="{{asset('img/1731310451.png')}}" alt=""></td>
             <td class="hbold">Ертогаев Логин Эдуардович</td>
             <td>Руководитель ВК Зимних игр</td>
         </tr>
 
         <tr>
-            <td><img src="{{asset('img/8077115.jpg')}}" alt=""></td>
+            <td><img src="{{asset('img/1731310451.png')}}" alt=""></td>
             <td class="hbold">Рудаков Игорь Вячеславович</td>
             <td>Руководитель блока информационной работы Зимних игр</td>
         </tr>
 
         <tr>
-            <td><img src="{{asset('img/8077115.jpg')}}" alt=""></td>
+            <td><img src="{{asset('img/1731310451.png')}}" alt=""></td>
             <td class="hbold">Иннокеткина Анна Константиновна</td>
             <td>Руководитель культурного блока</td>
         </tr>

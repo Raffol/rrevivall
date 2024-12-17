@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost:8889
--- Время создания: Дек 15 2024 г., 07:40
+-- Время создания: Дек 15 2024 г., 10:18
 -- Версия сервера: 8.0.35
 -- Версия PHP: 8.2.20
 
@@ -389,9 +389,9 @@ CREATE TABLE `news` (
 --
 
 INSERT INTO `news` (`id`, `title`, `content`, `author`, `media_path`, `published_at`, `created_at`, `updated_at`, `media_file`) VALUES
-(22, 'Открытие сайта!', 'Поздравляем с открытием сайта! Следите за новостями!', 'Админ', '[]', '2024-12-06 02:57:00', '2024-12-05 18:57:00', '2024-12-14 23:29:55', '[]'),
+(22, 'Открытие сайта!', 'Поздравляем с открытием сайта! Следите за новостями!', 'Админ', NULL, '2024-12-06 02:57:00', '2024-12-05 18:57:00', '2024-12-14 23:29:55', '[]'),
 (25, 'суббота', '14.12.2024', 'admin', 'news/kW-Jf8XYj6A.jpg', '2024-12-14 05:23:00', '2024-12-13 21:23:40', '2024-12-13 21:23:40', '[\"news/kW-Jf8XYj6A.jpg\"]'),
-(26, 'Микро отчет', 'Подошло к концу летние бурятские игры!\r\nВсем спасибо\r\nОсновной альбом тут: https://vk.com/album-218116938_303624803', 'Ден', 'news/kW-Jf8XYj6A.jpg', '2024-12-15 06:37:00', '2024-12-14 22:42:00', '2024-12-14 23:12:54', '[\"news/IMG_0113 (1).JPG\",\"news/IMG_0114 (1).JPG\"]');
+(26, 'Микро отчет', 'Подошло к концу летние бурятские игры!\r\nВсем спасибо\r\nОсновной альбом тут: https://vk.com/album-218116938_303624803', 'Ден', 'news/kW-Jf8XYj6A.jpg', '2024-12-15 06:37:00', '2024-12-14 22:42:00', '2024-12-15 02:17:03', '[\"news/B5jRtfpwYgE.jpg\",\"news/kW-Jf8XYj6A.jpg\",\"news/ol20k6HogLQ.jpg\",\"news/zT2FRxcd0nk.jpg\"]');
 
 -- --------------------------------------------------------
 
@@ -652,6 +652,7 @@ CREATE TABLE `sessions` (
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
 ('DrLD6ghSghCxZnJR7qAJ2LlHhFiTAAumUYdPMp7m', 2, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiRDBTSTFFSnd2TDlhN29iZWx0dDg5VTlBVFNBNmNnc29YZXdsVXY1byI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9ob21lZSI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToyO30=', 1734247806),
+('H8X6lgYWqXaOsUWMF9OpCzogbxQjQUAIgDpOY9nh', 2, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiQmZRU2JwZmRJS05aTGVmcTBtY0IyM2VhNmtVOXg3SFdzQ1pIVWZOMCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9uZXdzLzI2Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjI7fQ==', 1734257852),
 ('up85DudzZIDdVAbBvIw1tnEpu9XP5w0bDpWrJ6xK', NULL, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiaW5ySmRyMTN4YUdkc0pwM2pnYkE4anZGSEs5QmNNMjhBbHIzQVlOciI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czozMzoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluL3Bvc3RzIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9wb3N0cyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1734244379),
 ('WQDCXqPg6xTpx0BCi5T04ikwGC5f7WCmVwbDYSVz', NULL, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiRkxCbjBBUlBkb3Rkd3Y5YVhNd3dJdVpDTnI1b0V3MkF0VDFjMHNzNiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9sb2dpbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1734244379);
 

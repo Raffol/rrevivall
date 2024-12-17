@@ -36,7 +36,7 @@ class AuthController extends Controller
         Auth::login($user);
 
         // Перенаправление на страницу профиля
-        return redirect()->route('profile');
+        return redirect()->route('lk');
     }
 
     // Отображение формы входа
