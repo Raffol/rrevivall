@@ -1,6 +1,8 @@
 Данный проект создан в тестовом режиме и будет дорабатываться. 
 Сайт создан при поддержке организации ИРОО Возрождение. 
 Авторам проекта выражаем благодарность за выполненную работу 
+Дизайн: И.Р.
+Программный код: Д.Е.
 ----------
 This project was created in test mode and will be improved.
 The site was created with the support of the organization IROO Vozrozhdenie. 
